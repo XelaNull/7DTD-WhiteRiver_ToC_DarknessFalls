@@ -1,0 +1,5 @@
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">
+		<item group="ToCBooks" prob="5"/>
+	</append>		
+</configs>	
