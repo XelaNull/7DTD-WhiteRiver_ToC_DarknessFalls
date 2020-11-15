@@ -1,0 +1,47 @@
+<config>
+  <!-- Taza's Axe -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">20-40</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">50-60</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='gunHandgunT3SMG5']/@value">30-50</set>
+  
+  <!-- Bambi's Bow -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Bambi')]/reward[@id='item_toc_bambi_name']/@value">10-30</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Bambi')]/reward[@id='item_toc_bambi_name']/@value">40-50</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Elite Reward of Forest Prince')]/reward[@id='eliteitem_toc_bambi_name']/@value">60</set>
+
+  <!-- Black Bart's Dig Tools -->
+  <set xpath="/quests/quest[starts-with(@id, '+Black Bart')]/reward[@id='questitem_toc_shovel_name']/@value">50-60</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Black Bart')]/reward[@id='questitem_toc_pickaxe_name']/@value">50-60</set>
+
+  <!-- Bunyan's FireAxe -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Bunyan')]/reward[@id='item_toc_bunyanaxe_name']/@value">20-60</set>
+
+  <!-- Daryl's Crossbow -->
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Daryl')]/reward[@id='vetitem_toc_daryl_name']/@value">30-40</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Elite Reward of Daryl')]/reward[@id='eliteitem_toc_daryl_name']/@value">50-60</set>  
+
+  <!-- Deschain's Revolver -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Deschain')]/reward[@id='itemreward_toc_desch_name']/@value">20-60</set>
+
+  <!-- Dundee's Knife -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Dundee')]/reward[@id='item_toc_dundeeknife_name']/@value">20-60</set>
+  
+  <!-- Jason's Machete -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Jason')]/reward[@id='item_toc_jason_name']/@value">20-60</set>
+  
+  <!-- Kuva's Red & Blue Armor -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Kuva')]/reward[@id='item_toc_kuvared_chest_name']/@value">10-20</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Kuva')]/reward[@id='item_toc_kuvared_legs_name']/@value">10-20</set>
+  
+  <!-- Leon's SMG -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Leon') and contains(@id, 'Degraded SMG')]/reward[@id='questitem_toc_leondegsmg_name']/@value">10-30</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Leon') and contains(@id, 'Modded SMG')]/reward[@id='questitem_toc_leonsmg_name']/@value">30-40</set>
+
+  <!-- Pavlichenko's Marksman Rifle -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Pavlichenko Marksman Rifle')]/reward[@id='questitem_toc_pav_rifle_name']/@value">50-60</set>
+  
+  <!-- Rick Danger Auger -->
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Rick Danger Auger')]/reward[@id='vetitemreward_toc_rickdanger_name']/@value">20-50</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Elite Reward of Rick Danger Improved Auger')]/reward[@id='eliteitemreward_toc_rickdanger_name']/@value">50-60</set>
+  
+</config>
