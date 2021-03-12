@@ -1,9 +1,4 @@
 <config>
-  <!-- Taza's Axe -->
-  <set xpath="/quests/quest[starts-with(@id, '+Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">20-40</set>
-  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">50-60</set>
-  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='gunHandgunT3SMG5']/@value">30-50</set>
-  
   <!-- Bambi's Bow -->
   <set xpath="/quests/quest[starts-with(@id, '+Reward of Bambi')]/reward[@id='item_toc_bambi_name']/@value">10-30</set>
   <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Bambi')]/reward[@id='item_toc_bambi_name']/@value">40-50</set>
@@ -39,9 +34,15 @@
 
   <!-- Pavlichenko's Marksman Rifle -->
   <set xpath="/quests/quest[starts-with(@id, '+Reward of Pavlichenko Marksman Rifle')]/reward[@id='questitem_toc_pav_rifle_name']/@value">50-60</set>
-  
+    
   <!-- Rick Danger Auger -->
   <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Rick Danger Auger')]/reward[@id='vetitemreward_toc_rickdanger_name']/@value">20-50</set>
   <set xpath="/quests/quest[starts-with(@id, '+Elite Reward of Rick Danger Improved Auger')]/reward[@id='eliteitemreward_toc_rickdanger_name']/@value">50-60</set>
+    
+  <!-- Taza's Axe -->
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">20-40</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='meleeToolRepairT0TazasStoneAxe']/@value">50-60</set>
+  <set xpath="/quests/quest[starts-with(@id, '+Veteran Reward of Taza')]/reward[@id='gunHandgunT3SMG5']/@value">30-50</set>
+  
   
 </config>

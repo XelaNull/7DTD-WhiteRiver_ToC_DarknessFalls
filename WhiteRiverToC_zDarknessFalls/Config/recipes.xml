@@ -1,0 +1,42 @@
+<config>
+  <!-- Amelia's Gyrocopter -->
+  <!-- vehicleAmeliaGyrocopterPlaceable -->
+  <!--
+  <set xpath="/quests/quest[starts-with(@id, '+Reward of Bambi')]/reward[@id='item_toc_bambi_name']/@value">10-30</set>
+  -->
+  
+  <!-- Bear Grylls Claws -->
+  <remove xpath="/recipes/recipe[contains(@name, 'toc_claws_name')]/effect_group"/>
+  <!--
+  item_toc_claws_name
+  vetitem_toc_claws_name
+  -->
+  
+  <!-- Kuva's Blue Armor -->
+  <remove xpath="/recipes/recipe[contains(@name, 'item_toc_kuvablue_')]/effect_group"/>
+  <set xpath="/recipes/recipe[contains(@name, 'item_toc_kuvablue_')]/@tags">learnable,perkCraftArmor</set>
+  <!--
+  <set xpath="/recipes/recipe[@name='item_toc_kuvablue_hood_name']/@tags">learnable,perkCraftArmor</set>
+  <set xpath="/recipes/recipe[@name='item_toc_kuvablue_chest_name']/@tags">learnable,perkCraftArmor</set>
+  <set xpath="/recipes/recipe[@name='item_toc_kuvablue_gloves_name']/@tags">learnable,perkCraftArmor</set>
+  <set xpath="/recipes/recipe[@name='item_toc_kuvablue_pants_name']/@tags">learnable,perkCraftArmor</set>
+  <set xpath="/recipes/recipe[@name='item_toc_kuvablue_boots_name']/@tags">learnable,perkCraftArmor</set>
+-->
+
+
+<!--
+  <recipe name="item_toc_kuvablue_boots_name" count="1" craft_area="workbench" tags="learnable,perkLightArmor">
+-->
+  <!--
+  item_toc_kuvablue_hood_name
+  item_toc_kuvablue_chest_name    <recipe name="item_toc_kuvablue_boots_name" count="1" craft_area="workbench" tags="learnable,perkLightArmor">
+
+  item_toc_kuvablue_gloves_name
+  item_toc_kuvablue_pants_name
+  item_toc_kuvablue_boots_name
+  -->
+  
+  <!-- Remington's Steel Ammo -->
+  <remove xpath="/recipes/recipe[contains(@name, 'resourceBulletCasingSteelRemington')]/effect_group"/>
+  <remove xpath="/recipes/recipe[contains(@name, 'remingtonTurret')]/effect_group"/>
+</config>
